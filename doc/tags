@@ -1,0 +1,9 @@
+:FixToXml	fixprotocol.txt	/*:FixToXml*
+fixprotocol	fixprotocol.txt	/*fixprotocol*
+fixprotocol-commands	fixprotocol.txt	/*fixprotocol-commands*
+fixprotocol-configuration	fixprotocol.txt	/*fixprotocol-configuration*
+fixprotocol-contents	fixprotocol.txt	/*fixprotocol-contents*
+fixprotocol-contributions	fixprotocol.txt	/*fixprotocol-contributions*
+fixprotocol-features	fixprotocol.txt	/*fixprotocol-features*
+fixprotocol-intro	fixprotocol.txt	/*fixprotocol-intro*
+fixprotocol-license	fixprotocol.txt	/*fixprotocol-license*

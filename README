@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5115
+
+This plugin transforms FIX protocol messages to XM, translating FieldNumbers to FieldNames.
+
+Detailed description: https://bitbucket.org/vappolinario/vim-fixprotocol
+

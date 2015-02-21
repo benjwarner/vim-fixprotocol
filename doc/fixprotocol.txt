@@ -1,0 +1,46 @@
+*fixprotocol* converts FIX messages to XML
+ 
+CONTENTS                                              *fixprotocol-contents*
+
+   01. Intro ........................................... |fixprotocol-intro|
+   02. Features ..................................... |fixprotocol-features|
+   04. Configuration ........................... |fixprotocol-configuration|
+   05. Commands ..................................... |fixprotocol-commands|
+   06. Contributions ........................... |fixprotocol-contributions|
+   07. License ....................................... |fixprotocol-license|
+
+INTRODUCTION                                             *fixprotocol-intro*
+
+vim-fixprotocol transforms a FIX message into a XML and translates its fields
+names accordingly to a FIX Dictionary
+
+FEATURES                                              *fixprotocol-features*
+
+*  Integrated FIX Dictionary version 4.2 and 4.4
+
+CONFIGURATION                                    *fixprotocol-configuration*
+
+There few configuration values available (shown with their default values):
+
+* FIX Dictionary used for parsing >
+  let g:fixprotocol_fixversion='42'
+<
+* XML root tag string >
+  let g:fixprotocol_root_tag='FIXMESSAGE'
+
+COMMANDS                                              *fixprotocol-commands*
+
+:FixToXml                                                        *:FixToXml*
+  Converts the FIX message on current line to XML
+
+CONTRIBUTIONS                                    *fixprotocol-contributions*
+
+Contributions and pull requests are welcome.
+
+==============================================================================
+LICENSE                                                *fixprotocol-license*
+
+MIT License.  Copyright © 2015 Vitor Appolinario.
+
+
+ vim:tw=78:ts=8:ft=help:norl:
