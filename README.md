@@ -65,4 +65,3 @@ Otherwise you can always download and copy the files to `plugin`, `autoload` and
 
 * Suport for more fix versions
 * XML indentation
-* Translate *MsgType* values

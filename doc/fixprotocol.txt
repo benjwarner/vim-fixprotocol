@@ -27,7 +27,7 @@ There few configuration values available (shown with their default values):
 <
 * XML root tag string >
   let g:fixprotocol_root_tag='FIXMESSAGE'
-
+>
 COMMANDS                                              *fixprotocol-commands*
 
 :FixToXml                                                        *:FixToXml*
